@@ -1,6 +1,6 @@
 /*
  * @lc app=leetcode id=7 lang=java
- * @version 1.00 May 22, 2020
+ * @version 1.01 May 22, 2020
  * @author Ray Chen
  * [7] Reverse Integer
  */
