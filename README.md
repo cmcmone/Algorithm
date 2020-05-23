@@ -1,2 +1,2 @@
 # LeetCode
-LeetCode Solutions
+Try to solve the problem on LeetCode using Java.

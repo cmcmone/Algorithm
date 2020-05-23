@@ -1,8 +1,7 @@
-import java.util.HashMap;
-
 /*
  * @lc app=leetcode id=1 lang=java
- *
+ * @version 1.00 May 22, 2020
+ * @author Ray Chen
  * [1] Two Sum
  */
 
