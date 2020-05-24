@@ -5,7 +5,7 @@
  * 
  * Problem Description:
  * - see [7] Reverse Integer 
- * https://leetcode.com/problems/reverse-integer/
+ * - https://leetcode.com/problems/reverse-integer/
  */
 
 // @lc code=start

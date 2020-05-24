@@ -7,7 +7,7 @@ import java.util.Collections;
  * 
  * Problem Description:
  * - see [26] Remove Duplicates from Sorted Array 
- * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ * - https://leetcode.com/problems/remove-duplicates-from-sorted-array/
  */
 
 // @lc code=start
@@ -15,14 +15,9 @@ class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         int pos = 1;
-        int val = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            if (val == nums[i]) {
-                continue;
-            } else {
-                val = nums[i];
-                nums[i] = nums[pos];
-                nums[pos++] = val;
+            if (nums[i] > nums[i-1]) {
+                nums[pos++] = nums[i];
             }
         }
         return pos;

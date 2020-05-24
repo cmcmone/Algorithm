@@ -5,7 +5,7 @@
  * 
  * Problem Description:
  * - see [14] Longest Common Prefix 
- * https://leetcode.com/problems/longest-common-prefix/
+ * - https://leetcode.com/problems/longest-common-prefix/
  */
 
 // @lc code=start
