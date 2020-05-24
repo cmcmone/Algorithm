@@ -1,8 +1,6 @@
-import java.util.HashMap;
-
 /*
  * @lc app=leetcode id=13 lang=java
- * @version 1.00 May 23, 2020
+ * @version 1.02 May 23, 2020
  * @author Ray Chen
  * [13] Roman to Integer
  */
@@ -13,25 +11,29 @@ class Solution {
         if (s == null || s.length() == 0) {
             return 0;
         }
-        
-        var map = new HashMap<Character, Integer>();
-        map.put('I', 1);
-        map.put('V', 5);
-        map.put('X', 10);
-        map.put('L', 50);
-        map.put('C', 100);
-        map.put('D', 500);
-        map.put('M', 1000);
 
         int res = 0;
         for (int i = 0; i < s.length() - 1; i++) {
-            if (map.get(s.charAt(i)) >= map.get(s.charAt(i + 1))) {
-                res += map.get(s.charAt(i));
+            if (getValue(s.charAt(i)) >= getValue(s.charAt(i + 1))) {
+                res += getValue(s.charAt(i));
             } else {
-                res -= map.get(s.charAt(i));
+                res -= getValue(s.charAt(i));
             }
         }
-        return res + map.get(s.charAt(s.length() - 1));
+        return res + getValue(s.charAt(s.length() - 1));
+    }
+
+    private int getValue(char c){
+        switch(c){
+            case 'M' : return 1000;
+            case 'D' : return 500;
+            case 'C' : return 100;
+            case 'L' : return 50;
+            case 'X' : return 10;
+            case 'V' : return 5;
+            case 'I' : return 1;
+            default : return 0;
+        }
     }
 }
 // @lc code=end
