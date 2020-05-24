@@ -10,6 +10,10 @@ import java.util.HashMap;
 // @lc code=start
 class Solution {
     public int romanToInt(String s) {
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+        
         var map = new HashMap<Character, Integer>();
         map.put('I', 1);
         map.put('V', 5);
@@ -20,8 +24,8 @@ class Solution {
         map.put('M', 1000);
 
         int res = 0;
-        for (int i = 0, j = 1; j < s.length(); i++, j++) {
-            if (map.get(s.charAt(i)) >= map.get(s.charAt(j))) {
+        for (int i = 0; i < s.length() - 1; i++) {
+            if (map.get(s.charAt(i)) >= map.get(s.charAt(i + 1))) {
                 res += map.get(s.charAt(i));
             } else {
                 res -= map.get(s.charAt(i));
