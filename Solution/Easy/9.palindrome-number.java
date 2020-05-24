@@ -2,7 +2,9 @@
  * @lc app=leetcode id=9 lang=java
  * @version 1.00 May 23, 2020
  * @author Ray Chen
- * [9] Palindrome Number
+ * 
+ * Problem Description:
+ * - see [9] Palindrome Number https://leetcode.com/problems/palindrome-number/
  */
 
 // @lc code=start

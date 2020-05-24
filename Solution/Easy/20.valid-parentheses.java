@@ -2,7 +2,9 @@
  * @lc app=leetcode id=20 lang=java
  * @version 1.00 May 24, 2020
  * @author Ray Chen
- * [20] Valid Parentheses
+ * 
+ * Problem Description:
+ * - see [20] Valid Parentheses https://leetcode.com/problems/valid-parentheses/
  */
 
 // @lc code=start

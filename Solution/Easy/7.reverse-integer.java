@@ -2,7 +2,9 @@
  * @lc app=leetcode id=7 lang=java
  * @version 1.01 May 22, 2020
  * @author Ray Chen
- * [7] Reverse Integer
+ * 
+ * Problem Description:
+ * - see [7] Reverse Integer https://leetcode.com/problems/reverse-integer/
  */
 
 // @lc code=start

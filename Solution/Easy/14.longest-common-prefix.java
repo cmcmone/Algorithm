@@ -2,7 +2,9 @@
  * @lc app=leetcode id=14 lang=java
  * @version 1.04 May 24, 2020
  * @author Ray Chen
- * [14] Longest Common Prefix
+ * 
+ * Problem Description:
+ * - see [14] Longest Common Prefix https://leetcode.com/problems/longest-common-prefix/
  */
 
 // @lc code=start
