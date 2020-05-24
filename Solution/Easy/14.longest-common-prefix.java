@@ -4,7 +4,8 @@
  * @author Ray Chen
  * 
  * Problem Description:
- * - see [14] Longest Common Prefix https://leetcode.com/problems/longest-common-prefix/
+ * - see [14] Longest Common Prefix 
+ * https://leetcode.com/problems/longest-common-prefix/
  */
 
 // @lc code=start
