@@ -44,3 +44,7 @@ Try to solve the problem on LeetCode using Java.
 [27. Remove Element](https://leetcode.com/problems/remove-element/)
 
 - [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/27.remove-element.java)
+
+[28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+
+-[Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/28.implement-str-str.java)
