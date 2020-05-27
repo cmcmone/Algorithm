@@ -47,4 +47,4 @@ Try to solve the problem on LeetCode using Java.
 
 [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 
--[Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/28.implement-str-str.java)
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/28.implement-str-str.java)
