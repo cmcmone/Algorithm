@@ -11,7 +11,7 @@ Try to solve the problem on LeetCode using Java.
 
 - [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/1.two-sum.java)
 
-- [Article](http://localhost:4000/algorithm/leetcode/easy/2020/05/26/leetcode-1-two-sum.html)
+- [Article](https://cmcmone.github.io/algorithm/leetcode/easy/2020/05/26/leetcode-1-two-sum.html)
 
 [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
