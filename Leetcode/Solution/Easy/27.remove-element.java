@@ -5,23 +5,17 @@
  * 
  * Problem Description:
  * - see [27] Remove Element
- * - https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ * - https://leetcode.com/problems/remove-element/
  */
 
 // @lc code=start
 class Solution {
     public int removeElement(int[] nums, int val) {
-        int pos = 0, len = nums.length - 1;
-        while (pos <= len) {
+        int pos = 0, len = nums.length;
+        while (pos < len) {
             if (nums[pos] == val) {
-                while (len >= 0) {
-                    if (nums[len] != val) {
-                        nums[pos] = nums[len--];
-                        break;
-                    } else {
-                        len--;
-                    }
-                }
+                nums[pos] = nums[len - 1];
+                len--;
             } else {
                 pos++;
             }
@@ -30,4 +24,3 @@ class Solution {
     }
 }
 // @lc code=end
-
