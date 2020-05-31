@@ -9,6 +9,7 @@
  * 
  * Approach 1: iterative
  * Approach 2: divide and conquer
+ * Approach 3: dynamic programming
  */
 
 // @lc code=start
@@ -25,7 +26,7 @@ class Solution {
         return max;
     }
 }
-*/
+
 //Approach 2: divide and conquer
 class Solution {
     public int maxSubArray(int[] nums) {
@@ -61,6 +62,13 @@ class Solution {
             rightMax = Math.max(rightMax, rightSum);
         }
         return leftMax + rightMax;
+    }
+}
+*/
+//Approach 3: dynamic programming
+class Solution {
+    public int maxSubArray(int[] nums) {
+        
     }
 }
 // @lc code=end
