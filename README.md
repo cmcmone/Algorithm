@@ -48,3 +48,15 @@ Try to solve the problem on LeetCode using Java.
 [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 
 - [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/28.implement-str-str.java)
+
+[35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/35.search-insert-position.java)
+
+[38. Count and Say](https://leetcode.com/problems/count-and-say/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/38.count-and-say.java)
+
+[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/53.maximum-subarray.java)
