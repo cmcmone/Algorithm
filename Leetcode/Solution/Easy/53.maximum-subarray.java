@@ -7,14 +7,13 @@
  * - [53] Maximum Subarray
  * - https://leetcode.com/problems/maximum-subarray/
  * 
- * Approach 1: iterative
+ * Approach 1: dynamic programming
  * Approach 2: divide and conquer
- * Approach 3: dynamic programming
  */
 
 // @lc code=start
-/*
-//Approach 1: iterative
+
+//Approach 1: dynamic programming
 class Solution {
     public int maxSubArray(int[] nums) {
         int sum = nums[0];
@@ -26,7 +25,7 @@ class Solution {
         return max;
     }
 }
-
+/*
 //Approach 2: divide and conquer
 class Solution {
     public int maxSubArray(int[] nums) {
@@ -65,10 +64,4 @@ class Solution {
     }
 }
 */
-//Approach 3: dynamic programming
-class Solution {
-    public int maxSubArray(int[] nums) {
-        
-    }
-}
 // @lc code=end
