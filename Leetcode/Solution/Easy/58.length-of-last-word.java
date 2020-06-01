@@ -1,6 +1,6 @@
 /*
  * @lc app=leetcode id=58 lang=java
- * @version 1.00 May 30, 2020
+ * @version 1.00 May 31, 2020
  * @author Ray Chen
  * 
  * Problem Description:
