@@ -11,22 +11,16 @@
 // @lc code=start
 class Solution {
     public int[] plusOne(int[] digits) {
-        int temp;
         for (int i = digits.length - 1; i >= 0; --i) {
             if (digits[i] + 1 < 10) {
                 digits[i] = digits[i] + 1;
                 break;
             }
-            temp = digits[i] + 1;
-            digits[i] = temp % 10;
+            digits[i] = digits[i] + 1;
+            digits[i] = digits[i] % 10;
             if (i == 0) {
-                int j = 0;
-                var new_digits = new int[digits.length + 1];
-                new_digits[j] = 1;
-                for (int num : digits) {
-                    new_digits[++j] = num;
-                }
-                return new_digits;
+                digits = new int[digits.length + 1];
+                digits[0] = 1;
             }
         }
         return digits;
