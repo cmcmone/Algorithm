@@ -1,9 +1,3 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
-
-import javax.swing.tree.TreeNode;
-
 /*
  * @lc app=leetcode id=101 lang=java
  * @version 1.00 June 2, 2020
