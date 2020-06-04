@@ -60,3 +60,47 @@ Try to solve the problem on LeetCode using Java.
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 - [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/53.maximum-subarray.java)
+
+[58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/58.length-of-last-word.java)
+
+[66. Plus One](https://leetcode.com/problems/plus-one/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/66.plus-one.java)
+
+[67. Add Binary](https://leetcode.com/problems/add-binary/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/67.add-binary.java)
+
+[69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/69.sqrt-x.java)
+
+[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/70.climbing-stairs.java)
+
+[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/83.remove-duplicates-from-sorted-list.java)
+
+[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/88.merge-sorted-array.java)
+
+[100. Same Tree](https://leetcode.com/problems/same-tree/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/100.same-tree.java)
+
+[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/101.symmetric-tree.java)
+
+[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/104.maximum-depth-of-binary-tree.java)
+
+[107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+
+- [Solution](https://github.com/cmcmone/Algorithm-Exercises/blob/master/Leetcode/Solution/Easy/107.binary-tree-level-order-traversal-ii.java)
