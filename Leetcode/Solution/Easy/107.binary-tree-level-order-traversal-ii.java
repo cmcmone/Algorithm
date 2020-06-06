@@ -1,3 +1,7 @@
+import java.util.Queue;
+
+import javax.swing.tree.TreeNode;
+
 /*
  * @lc app=leetcode id=107 lang=java
  * @version 1.00 June 3, 2020
@@ -28,9 +32,27 @@
  * }
  */
 class Solution {
-    public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        
-    }
+   public List<List<Integer>> levelOrderBottom(TreeNode root) {
+      var res = new LinkedList<List<Integer>>();
+      if (root == null) return res;
+      Queue<TreeNode> q = new LinkedList<TreeNode>();
+      q.offer(root);
+      while (!q.isEmpty()) {
+         int size = q.size();
+         var sub = new LinkedList<Integer>();
+         for (int i = 0; i < size; i++) {
+            if (q.peek().left != null) {
+               q.offer(q.peek().left);
+            }
+            if (q.peek().right != null) {
+               q.offer(q.peek().right);
+            }
+            sub.add(q.poll().val);
+         }
+         res.add(0, sub);
+      }
+      return res;
+   }
 }
 // @lc code=end
 
