@@ -1,7 +1,3 @@
-import java.util.Queue;
-
-import javax.swing.tree.TreeNode;
-
 /*
  * @lc app=leetcode id=107 lang=java
  * @version 1.00 June 3, 2020
