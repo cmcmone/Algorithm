@@ -34,3 +34,6 @@
 # Test t
 test/
 .vs/
+
+# TypeScript config
+tsconfig.json
